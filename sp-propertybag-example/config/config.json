@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sp-propertybag-example-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spPropertybagExample/SpPropertybagExampleWebPart.js",
+          "manifest": "./src/webparts/spPropertybagExample/SpPropertybagExampleWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpPropertybagExampleWebPartStrings": "lib/webparts/spPropertybagExample/loc/{locale}.js"
+  }
+}

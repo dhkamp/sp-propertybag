@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.18.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.0",
+    "libraryName": "sp-propertybag-example",
+    "libraryId": "ccf57f1a-87ba-4e76-9d50-d939d2d8e503",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "sp-propertybag-example",
+    "solutionShortDescription": "sp-propertybag-example description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

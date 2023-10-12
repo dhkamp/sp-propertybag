@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-propertybag-example-client-side-solution",
+    "id": "ccf57f1a-87ba-4e76-9d50-d939d2d8e503",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "sp-propertybag-example description"
+      },
+      "longDescription": {
+        "default": "sp-propertybag-example description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sp-propertybag-example Feature",
+        "description": "The feature that activates elements of the sp-propertybag-example solution.",
+        "id": "23e2796e-fa1d-4443-809d-50828f5b320d",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-propertybag-example.sppkg"
+  }
+}

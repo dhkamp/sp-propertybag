@@ -1,0 +1,38 @@
+{
+  "name": "vite-typescript-npm-package",
+  "version": "1.0.0",
+  "description": "Vite TypeScript library npm package template",
+  "license": "ISC",
+  "main": "dist/index.cjs.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsc && vite build --watch",
+    "start": "vite --host --open",
+    "build": "tsc && vite build",
+    "build:types": "dts-bundle-generator --config ./dts-bundle-generator.config.ts",
+    "lint:scripts": "eslint . --ext .ts",
+    "format:scripts": "prettier . --write"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "dts-bundle-generator": "^8.0.1",
+    "eslint": "^8.49.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.3",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9",
+    "vite-plugin-dts": "^3.5.4"
+  },
+  "dependencies": {
+    "@microsoft/sp-component-base": "^1.18.0",
+    "@microsoft/sp-http-base": "^1.18.0",
+    "@pnp/sp": "^3.18.0"
+  }
+}
